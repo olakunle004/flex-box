@@ -1,0 +1,34 @@
+.container {
+  background: rgb(8, 8, 8);
+  height: 25vh;
+  width: 80vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+
+  display: flex;
+  flex-direction: row;
+gi
+}
+
+.item {
+  background: rgb(241, 239, 238);
+  margin: 0.5em;
+}
+
+.one {
+     flex: 2 250px;
+     order: 3;
+}
+
+.two {
+    flex: 1 2 250px;
+    align-self: center;
+
+    order:  2;
+}
+
+.three {
+    flex: 3 1 250px;
+
+    order: 1;
+}
